@@ -1,13 +1,40 @@
-const toolsApi = {
-    getAllTools: () => {
-        return [
-            { name: "Cúp Gỗ", durability: 5, maxDurability: 5, time: 9, price: 10, image: "https://example.com/wooden_pickaxe.png" },
-            { name: "Cúp Đá", durability: 10, maxDurability: 10, time: 7.5, price: 20, image: "https://example.com/stone_pickaxe.png" },
-            { name: "Cúp Sắt", durability: 15, maxDurability: 15, time: 6.5, price: 50, image: "https://example.com/iron_pickaxe.png" },
-            { name: "Cúp Vàng", durability: 20, maxDurability: 20, time: 4.5, price: 80, image: "https://example.com/gold_pickaxe.png" },
-            { name: "Cúp Kim Cương", durability: 25, maxDurability: 25, time: 3.5, price: 100, image: "https://example.com/diamond_pickaxe.png" }
-        ];
+ [
+         { 
+            name: "Cúp Gỗ",
+            durability: 5, 
+            maxDurability: 5,
+            time: 9,
+            price: 1000,
+            image: "https://i.imgur.com/IODc9Jo.png" 
+         },
+         {  name: "Cúp Đá",
+            durability: 10,
+            maxDurability: 10,
+            time: 7.5,
+            price: 5000,
+            image: "https://i.imgur.com/XHTNRGF.png"
+         },
+         { name: "Cúp Sắt",
+           durability: 15,
+           maxDurability: 15, 
+           time: 6.5,
+           price: 15000,
+             image: "https://i.imgur.com/Rrlr2ZB.png" 
+         },
+         { name: "Cúp Vàng",
+           durability: 20,
+           maxDurability: 20,
+           time: 4.5,
+           price: 30000,
+           image: "https://i.imgur.com/yPedwZX.png" 
+         },
+         { name: "Cúp Kim Cương",
+           durability: 25,
+           maxDurability: 25, 
+           time: 3.5,
+           price: 50000,
+           image: "https://i.imgur.com/qA8hott.png" 
+         }
+        ]
     }
-};
-
-module.exports = toolsApi;
+]
