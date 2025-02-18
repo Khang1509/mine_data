@@ -1,23 +1,138 @@
-const regionsApi = {
-    getAllRegions: () => {
-        return [
+[
+    {
+        "location": "The Earth",
+        "area": [
             {
-                region: "Miền Bắc",
-                monsters: ["Bộ Xương Khô", "Anh Zom Nóng Tính"],
-                ores: ["Sắt", "Đá", "Than"]
-            },
-            {
-                region: "Miền Trung",
-                monsters: ["Quả Bơm Nổ Siêu Nhanh", "Anh Da Đen"],
-                ores: ["Vàng", "Kim Cương"]
-            },
-            {
-                region: "Miền Nam",
-                monsters: ["Anh Da Đen", "Bộ Xương Khô"],
-                ores: ["Kim Cương", "Vàng", "Sắt"]
-            }
-        ];
-    }
-};
-
-module.exports = regionsApi;
+                "ID": 0,
+                "name": "Nơi khởi Nguyên",
+                "creature": [
+                    {
+                        "ID": 0,
+                        "name": "Viên Kim Cương",
+                        "category": "Common",
+                        "size": 32,
+                        "sell": 200,
+                        "image": "https://i.imgur.com/yRwGNQf.png"
+                    },
+                    {
+                        "ID": 1,
+                        "name": "Đất",
+                        "category": "Common",
+                        "size": 31,
+                        "sell": 200,
+                        "image": "https://i.imgur.com/PwM03Lx.png"
+                    },
+                    {
+                        "ID": 2,
+                        "name": "Gỗ",
+                        "category": "Uncommon",
+                        "size": 20,
+                        "sell": 400,
+                        "image": "https://i.imgur.com/gu5UyYZ.png"
+                    },
+                    {
+                        "ID": 3,
+                        "name": "Đá",
+                        "category": "Common",
+                        "size": 31,
+                        "sell": 200,
+                        "image": "https://i.imgur.com/XKv8I3a.png"
+                    },
+                    {
+                        "ID": 4,
+                        "name": "Phiến đá",
+                        "category": "Uncommon",
+                        "size": 28,
+                        "sell": 350,
+                        "image": "https://i.imgur.com/vMYKIGG.png"
+                    },
+                    {
+                        "ID": 5,
+                        "name": "Ngọc lưu ly",
+                        "category": "Rare",
+                        "size": 4700,
+                        "sell": 1800,
+                        "image": "https://i.imgur.com/d9gedJU.png"
+                    },
+                    {
+                        "ID": 6,
+                        "name": "Đất podzol",
+                        "category": "Rare",
+                        "size": 40,
+                        "sell": 370,
+                        "image": "https://i.imgur.com/wnXtrIt.jpg"
+                    },
+                    {
+                        "ID": 7,
+                        "name": "Cát",
+                        "category": "Common",
+                        "size": 48,
+                        "sell": 300,
+                        "image": "https://i.imgur.com/M3053jJ.jpg"
+                    },
+                    {
+                        "ID": 8,
+                        "name": "Đá Granite",
+                        "category": "Common",
+                        "size": 30,
+                        "sell": 200,
+                        "image": "https://i.imgur.com/Sr32pdv.jpg"
+                    },
+                    {
+                        "ID": 9,
+                        "name": "Sỏi",
+                        "category": "Common",
+                        "size": 37,
+                        "sell": 250,
+                        "image": "https://i.imgur.com/Gl4ylvn.jpg"
+                    }
+                ],
+                "ores": [
+                    {
+                        "ID": 0,
+                        "name": "Quặng Sắt",
+                        "category": "Common",
+                        "size": 20,
+                        "sell": 100,
+                        "image": "https://i.imgur.com/8F3YRTg.png"
+                    },
+                    {
+                        "ID": 1,
+                        "name": "Quặng Vàng",
+                        "category": "Uncommon",
+                        "size": 15,
+                        "sell": 200,
+                        "image": "https://i.imgur.com/jRYkGEX.png"
+                    },
+                    {
+                        "ID": 2,
+                        "name": "Quặng Kim Cương",
+                        "category": "Rare",
+                        "size": 5,
+                        "sell": 500,
+                        "image": "https://i.imgur.com/tz5ReLq.png"
+                    }
+                ],
+                "monsters": [
+                    {
+                        "ID": 0,
+                        "name": "Bộ Xương Khô",
+                        "loot": "Xương",
+                        "price": 10,
+                        "image": "https://i.imgur.com/Qivf1Gb.png"
+                    },
+                    {
+                        "ID": 1,
+                        "name": "Anh Zom Nóng Tính",
+                        "loot": "Sắt Vụn",
+                        "price": 20,
+                        "image": "https://i.imgur.com/HLG27z7.png"
+                    },
+                    {
+                        "ID": 2,
+                        "name": "Quả Bơm Nổ Siêu Nhanh",
+                        "loot": "Thuốc Nổ",
+                        "price": 30,
+                        "image": "https://i.imgur.com/BfyO1Tz.png"
+                    }
+                    
