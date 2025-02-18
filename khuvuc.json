@@ -1,0 +1,23 @@
+const regionsApi = {
+    getAllRegions: () => {
+        return [
+            {
+                region: "Miền Bắc",
+                monsters: ["Bộ Xương Khô", "Anh Zom Nóng Tính"],
+                ores: ["Sắt", "Đá", "Than"]
+            },
+            {
+                region: "Miền Trung",
+                monsters: ["Quả Bơm Nổ Siêu Nhanh", "Anh Da Đen"],
+                ores: ["Vàng", "Kim Cương"]
+            },
+            {
+                region: "Miền Nam",
+                monsters: ["Anh Da Đen", "Bộ Xương Khô"],
+                ores: ["Kim Cương", "Vàng", "Sắt"]
+            }
+        ];
+    }
+};
+
+module.exports = regionsApi;
