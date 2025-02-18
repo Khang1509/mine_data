@@ -1,0 +1,12 @@
+const monstersApi = {
+    getAllMonsters: () => {
+        return [
+            { name: "Bộ Xương Khô", loot: "Xương", image: "https://example.com/skeleton.png", price: 5 },
+            { name: "Anh Zom Nóng Tính", loot: "Sắt Vụn", image: "https://example.com/zombie.png", price: 10 },
+            { name: "Quả Bơm Nổ Siêu Nhanh", loot: "Thuốc Nổ", image: "https://example.com/creeper.png", price: 15 },
+            { name: "Anh Da Đen", loot: "Que Lửa", image: "https://example.com/creeper.png", price: 20 }
+        ];
+    }
+};
+
+module.exports = monstersApi;
